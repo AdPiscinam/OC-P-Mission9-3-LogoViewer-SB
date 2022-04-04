@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -133,7 +133,7 @@
 				};
 			};
 			buildConfigurationList = C9C38D80208F0E4900975B31 /* Build configuration list for PBXProject "OC-P-Mission9-2-LogoViewer-SB" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -314,6 +314,7 @@
 		C9C38D98208F0E4B00975B31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/OC-P-Mission9-2-LogoViewer-SB/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,13 +324,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.openclassrooms.LogoViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C9C38D99208F0E4B00975B31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/OC-P-Mission9-2-LogoViewer-SB/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,7 +341,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.openclassrooms.LogoViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
