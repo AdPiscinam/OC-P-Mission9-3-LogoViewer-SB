@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59C6970827FC29FC0059337A /* LogoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6970727FC29FC0059337A /* LogoService.swift */; };
 		C9C38D89208F0E4900975B31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C38D88208F0E4900975B31 /* AppDelegate.swift */; };
 		C9C38D8B208F0E4900975B31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C38D8A208F0E4900975B31 /* ViewController.swift */; };
 		C9C38D8E208F0E4900975B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C38D8C208F0E4900975B31 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59C6970727FC29FC0059337A /* LogoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoService.swift; sourceTree = "<group>"; };
 		C9C38D85208F0E4900975B31 /* LogoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C38D88208F0E4900975B31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9C38D8A208F0E4900975B31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +61,8 @@
 				C9C38D9C208F10F900975B31 /* View */,
 				C9C38D9A208F10CE00975B31 /* Supporting Files */,
 			);
-			path = "OC-P-Mission9-2-LogoViewer-SB";
+			name = "OC-P-Mission9-2-LogoViewer-SB";
+			path = "OC-P-Mission9-3-LogoViewer-SB";
 			sourceTree = "<group>";
 		};
 		C9C38D9A208F10CE00975B31 /* Supporting Files */ = {
@@ -77,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				C9C38D8A208F0E4900975B31 /* ViewController.swift */,
+				59C6970727FC29FC0059337A /* LogoService.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -132,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C9C38D80208F0E4900975B31 /* Build configuration list for PBXProject "OC-P-Mission9-2-LogoViewer-SB" */;
+			buildConfigurationList = C9C38D80208F0E4900975B31 /* Build configuration list for PBXProject "OC-P-Mission9-3-LogoViewer-SB" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -168,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59C6970827FC29FC0059337A /* LogoService.swift in Sources */,
 				C9C38D8B208F0E4900975B31 /* ViewController.swift in Sources */,
 				C9C38D89208F0E4900975B31 /* AppDelegate.swift in Sources */,
 			);
@@ -314,9 +319,8 @@
 		C9C38D98208F0E4B00975B31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/OC-P-Mission9-2-LogoViewer-SB/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/OC-P-Mission9-3-LogoViewer-SB/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,9 +335,8 @@
 		C9C38D99208F0E4B00975B31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/OC-P-Mission9-2-LogoViewer-SB/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/OC-P-Mission9-3-LogoViewer-SB/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -348,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C9C38D80208F0E4900975B31 /* Build configuration list for PBXProject "OC-P-Mission9-2-LogoViewer-SB" */ = {
+		C9C38D80208F0E4900975B31 /* Build configuration list for PBXProject "OC-P-Mission9-3-LogoViewer-SB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9C38D95208F0E4B00975B31 /* Debug */,
